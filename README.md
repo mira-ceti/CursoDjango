@@ -61,7 +61,7 @@ git remote add origin https://github.com/mira-ceti/CursoDjango.git
 
 git push -u origin master
 
-# Para cambiar a un repositorio remoto
+# Para cambiar a un repositorio remoto (hacerlo en un terminal nuevo de Ubuntu)
 nano .git/config
 ## Y cambiar al repositorio con sus credenciales correspondientes:
 [core]
