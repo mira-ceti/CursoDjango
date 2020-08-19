@@ -30,6 +30,12 @@ pipenv run server (entrada en el Pipfile de la siguiente forma:
 # Aplicar la migración en la base de datos:
  pipenv run python manage.py migrate
 
+# Acceso a la administración de Django
+http://127.0.0.1:8000/admin/login/?next=/admin/
+
+# Crear un usuario administrador
+pipenv run python manage.py createsuperuser
+
 # Quick setup — if you’ve done this kind of thing before
 
 https://github.com/mira-ceti/CursoDjango.git
