@@ -36,6 +36,9 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 # Crear un usuario administrador
 pipenv run python manage.py createsuperuser
 
+# Para acceder a la línea de comandos desde Django
+pipenv run python manage.py shell
+
 # Quick setup — if you’ve done this kind of thing before
 
 https://github.com/mira-ceti/CursoDjango.git
