@@ -10,7 +10,7 @@
     {% for post in posts %}
         <div>
             <h3>{{post.title}}</h3>
-            <h5>{{post.content}}</h5>
+            <h5><a href="/blog/{{post.id}}">Leer mas...</a></h5>
         </div>
     {% endfor %}
 </body>
