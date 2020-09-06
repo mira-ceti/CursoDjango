@@ -80,7 +80,7 @@ nano .git/config
         merge = refs/heads/master
 [user]
         name = mira-ceti
-        password = Numero12c@
+        password = *********
         email = ibellon@gmail.com
 
 # Volver a escribir el mensaje de confirmación más reciente
